@@ -46,9 +46,9 @@ Step 5/7 : RUN pip install -qr requirements.txt
  ---> Running in 81044c1a701a
 Removing intermediate container 81044c1a701a
  ---> f34572dbcf4a
-Step 6/7 : COPY server.py .
+Step 6/7 : COPY helloworld.py .
  ---> 49185ab473c5
-Step 7/7 : CMD ["python3", "./server.py"]
+Step 7/7 : CMD ["python3", "./helloworld.py"]
  ---> Running in 2446171f3946
 Removing intermediate container 2446171f3946
  ---> 7d692d619894
